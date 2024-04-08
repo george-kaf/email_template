@@ -1,0 +1,2 @@
+# newsletter
+Newsletter email template
