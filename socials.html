@@ -1,184 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<body style="margin:0;">
+    <center style="background-image: url('https://i.imgur.com/b8dG2O5.png'); background-size:cover; background-repeat: no-repeat; background-position:top; min-height: 600px;">
+    <!-- Main div that holds everything -->
 
-body {
-    margin:0;
-}
- 
-.bg {
-    animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-    bottom:0;
-    left:-50%;
-    opacity:.5;
-    position:fixed;
-    right:-50%;
-    top:0;
-    z-index:-1;
-}
- 
-.bg2 {
-    animation-direction:alternate-reverse;
-    animation-duration:4s; 
-}
- 
-.bg3 {
-    animation-duration:5s;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+            <!-- logo image  -->
+            <div style="width: min-content; padding-top: 60px; padding-bottom: 60px;">
 
-}
- 
-.content {
-    min-width: 370px;
-    background-color:rgba(255,255,255,.8);
-    border-radius:.25em;
-    box-shadow:0 0 .25em rgba(0,0,0,.25);
-    box-sizing:border-box;
-    left:50%;
-    padding:10vmin;
-    position:fixed;
-    text-align:center;
-    top:50%;
-    transform:translate(-50%, -50%);
-}
- 
-h1 {
-    font-family:monospace; color: rgb(56, 56, 56);
-    font-family:cursive;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;   
-}
- 
-@keyframes slide {
-    0% {
-        transform:translateX(-25%);
-    }
- 
-    100% {
-        transform:translateX(25%);
-    }
-}
-    svg {
-        color: #4ebd97;
-        }
-    
-    h1 {
-        color: rgb(56, 56, 56);
-        font-weight: 600;
-        }
+                <!-- Title for social media icons -->
+        <img src="https://i.imgur.com/pmpK73K.png" alt="" width="180">
 
-    .svg-and-links {
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
+        <h1 style="padding:10px 0 10px 0; font-size: 1.7rem; font-family:'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; color: #ffffff;
+        font-weight: 100; width: max-content;">Follow Us<br>On Social Media </h1>
 
-    p {
-        color: rgb(56, 56, 56);
-        display: inline;
-        position: relative;
-        margin: 0 0 0 10px;
-        font-family: Helvetica;    
-    }
 
-    a {
-        text-decoration: none;   
-    }
+        <!-- Container for icons and links -->
+        <div style="margin: 20px; width: max-content;">
 
-    #fb  {
-        display: flex;
-        justify-content: center;
-        margin-top: 5%;
-    }
-
-    #insta {
-        margin: 7% 0 7% 0;
-        display: flex;
-        justify-content: center;   
-    }
-
-    #twit {
-        
-        display: flex;
-        justify-content: center;
-    }
-
-    .ruler {
-        background-color: black;
-        width: 50%;    
-    }
-
-    .icon-container {
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
-        justify-content: center;
-    }
-
-    #social-1 {
-        height: 15%;
-        width: 15%;
-        position: relative;
-        right: 1%;
-        color: #4ebd97;
-
-    }
-
-    #social-2 {
-        height: 30%;
-        width: 30%;
-        color: #4c699c;
-   
-    }
-
-    #social-3 {
-        height: 15%;
-        width: 15%;
-        color: #63cb66;
-        }
-    
-    #title-1 {
-        font-size: 1em;
-    }
-
-    #title-2 {
-        font-size: 1.2em;
-        }
-
-    #title-3 {
-        font-size: 1.2em;
-    }
-
-    </style>
-</head>
-<body>
-<div>
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-    <div class="content">
-        <div class="icon-container">
-            <svg id="social-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M2.5 0A1.5 1.5 0 0 0 1 1.5v8.919l-.974 2.923a.5.5 0 0 0 .595.643L4.561 13H12.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 12.5 0zm1.375 4.846c0-.346.28-.625.625-.625h6a.625.625 0 1 1 0 1.25h-6a.625.625 0 0 1-.625-.625M4.5 7.529a.625.625 0 1 0 0 1.25h4a.625.625 0 1 0 0-1.25z" clip-rule="evenodd"/></svg>
-            <svg id="social-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52c1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 0 1-3.476.383a.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.132a.39.39 0 0 0-.297-.17a48.9 48.9 0 0 1-3.476-.385c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97M6.75 8.25a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75m.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/></svg>
-            <svg id="social-3" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M1.44.44A1.5 1.5 0 0 1 2.5 0h10A1.5 1.5 0 0 1 14 1.5v10a1.5 1.5 0 0 1-1.5 1.5H4.562l-3.94.985a.5.5 0 0 1-.596-.643L1 10.419V1.5c0-.398.158-.78.44-1.06m5.692 3.19a1.007 1.007 0 1 1 .385 1.936a.625.625 0 0 0-.625.625V7.28a.625.625 0 1 0 1.25 0v-.551A2.256 2.256 0 1 0 5.261 4.56a.625.625 0 1 0 1.25 0a1.007 1.007 0 0 1 .621-.93m.385 6.994a.897.897 0 1 1 .002 0z" clip-rule="evenodd"/></svg>
+        <!-- Facebook container for icon and link -->
+         <div style="width:20%; min-width: 200px; max-width: 200px; border-radius: 22px; background-color: #63a3d4;  padding: 7px 7px 9px 7px;">
+            <a href="https://www.facebook.com/axionesti.gr" style="text-decoration: none;"> 
+                <img style="vertical-align: middle;" src="https://i.imgur.com/dg1yaRq.png" width="20px" alt="">
+                <p style="vertical-align: middle; margin: 0 0 0 5px; display: inline; font-size: 0.8rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 600; color: #ffffff">ΑΞΙΟΝ ΕΣΤΙ</p>
+            </a>
         </div>
-        <div class="info-container">
-            <h1>Follow Us On <br>Social Media </h1>
-            <hr class="ruler">
-                <div class="svg-and-links">
-            <div id="fb"> <a href="https://www.facebook.com/axionesti.gr"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 750 850"><path fill="currentColor" d="M659 8q34 0 59 24t24 58v577q0 35-24 59t-59 24H494V461h83l23-102H494v-69q0-22 13-41t44-19h49V123h-74q-79 0-117 42t-38 110v84h-83v102h83v289H82q-34 0-58-24T0 667V90q0-34 24-58T82 8z"/></svg><p>ΑΞΙΟΝ ΕΣΤΙ</p></a></div>
-            <div id="insta"> <a href="https://www.instagram.com/axion_esti_volos"><svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24"><path fill="currentColor" d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a78.831 78.831 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.883 4.883 0 0 1-1.153 1.772a4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465a72.11 72.11 0 0 1-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78.43 78.43 0 0 1-2.189-.023l-.194-.006a63.036 63.036 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.889 4.889 0 0 1-1.771-1.153a4.904 4.904 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428a74.1 74.1 0 0 1-.03-.712l-.005-.194A79.047 79.047 0 0 1 2 13.028v-2.056a78.82 78.82 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.88 4.88 0 0 1 3.68 3.678a4.897 4.897 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5"/></svg> <p>axion_esti_volos</p></a></div>
-            <div id="twit"> <a href="https://twitter.com/axion_esti_"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="currentColor" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#fff" d="M0 0h14v14H0z"/></clipPath></defs></g></svg><p>axion_esti_</p></a></div>
-            </div>
+
+        <!-- Twitter container for icon and link -->
+         <div style="width:20%; min-width: 200px; max-width: 200px; border-radius: 22px; padding: 7px; background-color: #63a3d4; margin: 5% 0 5% 0;  padding: 7px 7px 9px 7px;"> 
+            <a href="https://twitter.com/axion_esti_" style="text-decoration: none; " > 
+                <img style="vertical-align: middle;" src="https://i.imgur.com/r8EZPvO.png" width="20px" alt=""> 
+                <p style="vertical-align: middle; margin: 0 0 0 5px; display: inline; font-size: 0.9rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffffff;">axion_esti_</p></a>
         </div>
+         
+        <!-- Instagram container for icon and link -->
+        <div style="width: 20%; min-width: 200px; max-width: 200px; border-radius: 22px; padding: 7px; background-color: #63a3d4;  padding: 7px 7px 9px 7px;"> 
+            <a href="https://www.instagram.com/axion_esti_volos" style="text-decoration: none; " > 
+                <img style="vertical-align: middle;" src="https://i.imgur.com/hYcquFW.png" width="20px" alt=""> 
+                <p style="vertical-align: middle; margin: 0 0 0 5px; display: inline; font-size: 0.9rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffffff">axion_esti_volos</p></a></div>
+        </div>
+
+        <a href="https://www.axionesti.gr/" style="text-decoration: none;"><p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: white;">www.axionesti.gr</p></a>
+
     </div>
-</div>
-</body>
 
-</html>
+</center>
+
+</body>
